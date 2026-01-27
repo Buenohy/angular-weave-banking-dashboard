@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
-import { matSearchOutline } from '@ng-icons/material-icons/outline';
+import { matMessageOutline } from '@ng-icons/material-icons/outline';
 
 @Component({
   selector: 'app-button',
@@ -8,7 +8,7 @@ import { matSearchOutline } from '@ng-icons/material-icons/outline';
   imports: [NgIcon],
   viewProviders: [
     provideIcons({
-      matSearchOutline,
+      matMessageOutline,
     }),
   ],
   templateUrl: './button.html',
