@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
-import { ButtonAdd } from '../../components/button-add/button-add';
-import { Input } from '../../components/input/input';
-import { Button } from '../../components/button/button';
-import { Table } from '../../components/table/table';
 import { provideIcons } from '@ng-icons/core';
-import { matPlusOutline } from '@ng-icons/material-icons/outline';
+import { matMenuOutline, matPlusOutline } from '@ng-icons/material-icons/outline';
+import { ButtonAdd } from '../../components/button-add/button-add';
+import { ButtonIcon } from '../../components/button-icon/button-icon';
+import { Input } from '../../components/input/input';
+import { Table } from '../../components/table/table';
 
 @Component({
   selector: 'app-subscription',
-  imports: [ButtonAdd, Input, Button, Table],
+  imports: [ButtonAdd, Input, Table, ButtonIcon],
   viewProviders: [
     provideIcons({
       matPlusOutline,
+      matMenuOutline,
     }),
   ],
   templateUrl: './subscription.html',
