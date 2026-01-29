@@ -21,5 +21,82 @@ export class Table {
       card: 'Visa **** 1601',
       action: '-',
     },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
+    {
+      userName: 'Gabriel Bueno',
+      userEmail: 'bueno@yahoo.com',
+      userImage: 'images/user.jpeg',
+
+      amount: '$25,000.00',
+      date: 'Jul 8, 2023',
+      lastTransection: 'No Transection',
+      card: 'Visa **** 1601',
+      action: '-',
+    },
   ];
 }

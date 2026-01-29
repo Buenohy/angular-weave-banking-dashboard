@@ -13,11 +13,12 @@ import {
   matCardTravelOutline,
   matFolderOutline,
 } from '@ng-icons/material-icons/outline';
+import { Update } from '../update/update';
 
 @Component({
   selector: 'app-nav-bar',
   standalone: true,
-  imports: [NgIcon, RouterLink, RouterLinkActive],
+  imports: [NgIcon, RouterLink, RouterLinkActive, Update],
   viewProviders: [
     provideIcons({
       matAutoAwesomeMosaicOutline,
