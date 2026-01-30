@@ -7,9 +7,12 @@ import {
   matAttachMoneyOutline,
 } from '@ng-icons/material-icons/outline';
 import { heroArrowTrendingUp } from '@ng-icons/heroicons/outline';
+import { BalanceChart } from '../../components/charts/balance-chart/balance-chart';
+import { CardBalance } from '../../components/charts/card-balance/card-balance';
+import { MonthlyChart } from '../../components/charts/monthly-chart/monthly-chart';
 @Component({
   selector: 'app-dashboard',
-  imports: [CardDashboard],
+  imports: [CardDashboard, BalanceChart, CardBalance, MonthlyChart],
   viewProviders: [
     provideIcons({
       matMonetizationOnOutline,
