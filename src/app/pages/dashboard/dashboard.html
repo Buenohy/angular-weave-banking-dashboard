@@ -33,7 +33,7 @@
       percentage="+2,74%"
     ></app-card-dashboard>
   </div>
-  <div class="flex gap-8">
+  <div class="flex gap-8 flex-wrap">
     <div>
       <div class="flex flex-col bg-gray-100 rounded-lg p-4 gap-4">
         <span class="text-black font-semibold text-xl">Monthly Spend</span>
@@ -48,6 +48,10 @@
         <app-card-balance></app-card-balance>
       </div>
       <app-balance-chart></app-balance-chart>
+    </div>
+    <div class="flex flex-col bg-gray-100 rounded-lg p-4 gap-4">
+      <span class="text-black font-semibold text-xl">Activity</span>
+      <app-activity-chart></app-activity-chart>
     </div>
   </div>
 </div>

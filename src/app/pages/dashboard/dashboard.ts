@@ -10,9 +10,10 @@ import { heroArrowTrendingUp } from '@ng-icons/heroicons/outline';
 import { BalanceChart } from '../../components/charts/balance-chart/balance-chart';
 import { CardBalance } from '../../components/charts/card-balance/card-balance';
 import { MonthlyChart } from '../../components/charts/monthly-chart/monthly-chart';
+import { ActivityChart } from '../../components/charts/activity-chart/activity-chart';
 @Component({
   selector: 'app-dashboard',
-  imports: [CardDashboard, BalanceChart, CardBalance, MonthlyChart],
+  imports: [CardDashboard, BalanceChart, CardBalance, MonthlyChart, ActivityChart],
   viewProviders: [
     provideIcons({
       matMonetizationOnOutline,
