@@ -34,6 +34,12 @@
     ></app-card-dashboard>
   </div>
   <div class="flex gap-8">
+    <div>
+      <div class="flex flex-col bg-gray-100 rounded-lg p-4 gap-4">
+        <span class="text-black font-semibold text-xl">Monthly Spend</span>
+        <app-monthly-chart></app-monthly-chart>
+      </div>
+    </div>
     <div class="flex flex-col bg-gray-100 rounded-lg p-4 gap-4">
       <span class="text-black font-semibold text-xl">Balance</span>
       <div class="flex gap-4">
@@ -42,7 +48,6 @@
         <app-card-balance></app-card-balance>
       </div>
       <app-balance-chart></app-balance-chart>
-      <app-monthly-chart></app-monthly-chart>
     </div>
   </div>
 </div>
