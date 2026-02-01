@@ -1,5 +1,5 @@
 <div>
-  <div class="flex gap-8">
+  <div class="flex gap-8 flex-wrap">
     <div class="flex flex-col bg-gray-100 rounded-lg p-4 gap-4">
       <span class="text-black font-semibold text-xl">Available Balance</span>
       <app-availabe-balance-chart></app-availabe-balance-chart>
@@ -7,6 +7,9 @@
     <div class="flex flex-col bg-gray-100 rounded-lg p-4 gap-4">
       <span class="text-black font-semibold text-xl">Balance Activity</span>
       <app-balance-activity-chart></app-balance-activity-chart>
+    </div>
+    <div>
+      <app-recent-transaction></app-recent-transaction>
     </div>
   </div>
 </div>
